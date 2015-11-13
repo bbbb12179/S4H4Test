@@ -1,0 +1,113 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:cache="http://www.springframework.org/schema/cache" xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:amq="http://activemq.apache.org/schema/core"
+    xsi:schemaLocation="
+       http://activemq.apache.org/schema/core
+       http://activemq.apache.org/schema/core/activemq-core.xsd
+       http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.2.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+       http://www.springframework.org/schema/jee
+       http://www.springframework.org/schema/jee/spring-jee-4.2.xsd
+       http://www.springframework.org/schema/cache
+       http://www.springframework.org/schema/cache/spring-cache-4.0.xsd">
+       
+    <!-- 引入properties文件 -->
+    <context:property-placeholder location="classpath*:/resource/brokerConfig.properties" />
+
+	<amq:broker useJmx="false" persistent="false">
+    	<amq:transportConnectors>
+      		<amq:transportConnector uri="tcp://${brokerIp}:${brokerPort}?keepAlive=true&amp;tcpNoDelay=true&amp;socketBufferSize=131072&amp;ioBufferSize=16384&amp;trace=false&amp;soTimeout=180000&amp;connectionTimeout=60000&amp;wireFormat.maxInactivityDuration=120000&amp;wireFormat.cacheEnabled=true&amp;wireFormat.cacheSize=4096" />
+    	</amq:transportConnectors>
+    </amq:broker>
+       
+    <!-- 将隐式地向 Spring 容器注册 AutowiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor、PersistenceAnnotationBeanPostProcessor 以及 equiredAnnotationBeanPostProcessor 这 4 个 BeanPostProcessor -->
+    <!-- <context:annotation-config/> -->
+    <!-- 定义 Autowired  自动注入 bean -->
+    <!--  <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>-->
+    
+   
+    <!-- 扫描有注解的文件  base-package package路径 -->
+    <!-- <context:component-scan/> 配置项不但启用了对类包进行扫描以实施注释驱动 Bean 定义的功能，同时还启用了注释驱动自动注入的功能 -->
+    <context:component-scan base-package="*">
+    	<context:exclude-filter type="regex"  expression="org\.springframework\..*"/>
+    </context:component-scan>
+      
+    <bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+       <property name="alias" value="cen"/>
+       <property name="driver" value="org.h2.Driver"/> 
+       <property name="driverUrl" value="jdbc:h2:tcp://localhost/~/cen/cendb"/>
+       <property name="user" value="sa"/>
+	   <property name="password" value=""/>
+	   <property name="maximumConnectionCount" value="100"/> 
+	   <property name="minimumConnectionCount" value="5"/>  
+	   <property name="testBeforeUse" value="true"/>
+	   <property name="houseKeepingTestSql" value="select CURRENT_DATE"/>
+	   <property name="maximumConnectionLifetime" value="90000000" />
+    </bean>   
+    
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+      	<property name="dataSource" ref="dataSource" />
+      	
+      	<property name="mappingResources">
+        	<list>
+        		<value>com/synnex/adms/central/model/Node.hbm.xml</value>
+        	</list>
+        </property>
+        
+        <property name="hibernateProperties">
+            <value>
+                <!-- 设置数据库方言 -->
+                hibernate.dialect=org.hibernate.dialect.H2Dialect
+                hibernate.hbm2ddl.auto=update
+                hibernate.show_sql=true
+                hibernate.format_sql=true
+                hibernate.cache.use_second_level_cache=false
+                hibernate.cache.use_query_cache=false
+                hibernate.jdbc.fetch_size=100
+                hibernate.jdbc.batch_size=100
+                hibernate.connection.autocommit=true
+                hibernate.connection.release_mode=auto
+                hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext
+                javax.persistence.validation.mode=none
+            </value>
+        </property>
+    </bean>
+   
+   	<bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    
+    <tx:annotation-driven transaction-manager="transactionManager" />
+    
+    <!-- 舊式用法
+   	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="create*" propagation="REQUIRED" />
+            <tx:method name="save*" propagation="REQUIRED" />
+            <tx:method name="add*" propagation="REQUIRED" />
+            <tx:method name="update*" propagation="REQUIRED" />
+            <tx:method name="remove*" propagation="REQUIRED" />
+            <tx:method name="del*" propagation="REQUIRED" />
+            <tx:method name="import*" propagation="REQUIRED" />
+            <tx:method name="insert*" propagation="REQUIRED" />
+           
+            <tx:method name="*" propagation="NOT_SUPPORTED" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+      
+    <aop:config>
+  		<aop:pointcut id="consoleServices" expression="execution(* com.synnex.adms.central.console.service.*.*(..))"/>
+  		<aop:advisor advice-ref="txAdvice" pointcut-ref="consoleServices"/>
+	</aop:config>
+	-->
+    
+</beans>
+

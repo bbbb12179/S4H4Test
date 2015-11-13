@@ -1,0 +1,1 @@
+native2ascii -encoding UTF-8 messages_zh_TW.UTF8 messages_zh_TW.properties

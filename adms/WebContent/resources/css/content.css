@@ -1,0 +1,357 @@
+﻿BODY
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+TD
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+
+
+
+FORM
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+INPUT
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+OPTION
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+SELECT
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+TEXTAREA
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: 細明體, Arial;
+    FONT-SIZE: 9pt
+}
+P
+{
+    COLOR: #000000;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+OL
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+A:link
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: 細明體;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: 細明體;
+    TEXT-DECORATION: none
+}
+.headline-s12
+{
+    FONT-SIZE: 12pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 19px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.subhead-s12
+{
+    FONT-SIZE: 12pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 19px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.list-s9
+{
+    FONT-SIZE: 9pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 12px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.brief-s9
+{
+    FONT-SIZE: 9pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 16px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.menu-s9
+{
+    FONT-SIZE: 9pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 17px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.article-s11
+{
+    FONT-SIZE: 11pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 21px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.article-s10
+{
+    FONT-SIZE: 10pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 19px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.spanstyle
+{
+    COLOR: #ffff00;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt;
+    POSITION: absolute;
+    TOP: -50px;
+    VISIBILITY: visible
+}
+DIV
+{
+    WIDTH: 100%
+}
+SPAN
+{
+    WIDTH: 100%
+}
+.conts
+{
+    BACKGROUND-COLOR: #3068d0;
+    DISPLAY: none
+}
+.tab
+{
+    BACKGROUND-COLOR: #3068d0;
+    BORDER-LEFT: #e0e0e0 thin solid;
+    BORDER-RIGHT: gray thin solid;
+    BORDER-TOP: #e0e0e0 thin solid;
+    COLOR: #ffffff;
+    CURSOR: default;
+    FONT-WEIGHT: normal;
+    TEXT-ALIGN: center
+}
+.selTab
+{
+    BACKGROUND-IMAGE: url(../images/background.gif);
+    BORDER-LEFT: white thin solid;
+    BORDER-RIGHT: black thin solid;
+    COLOR: #ffffff;
+    CURSOR: default;
+    TEXT-ALIGN: center
+}
+.normal
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+.menu
+{
+    BACKGROUND-COLOR: #0099ff;
+    BORDER-BOTTOM: #003399 1px solid;
+    BORDER-LEFT: #99ccff 1px solid;
+    BORDER-RIGHT: #003399 1px solid;
+    BORDER-TOP: #99ccff 1px solid;
+    COLOR: white;
+    CURSOR: hand;
+    LINE-HEIGHT: 9pt;
+    MARGIN: 8px 0px;
+    PADDING-BOTTOM: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 2px;
+    TEXT-DECORATION: none
+}
+.selectoption
+{
+    COLOR: #cc0000;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+
+.selectoption1
+{
+    COLOR: darkblue;
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 9pt
+}
+
+.article-s13
+{
+    FONT-SIZE: 13pt;
+    LETTER-SPACING: 0px;
+    LINE-HEIGHT: 26px;
+    TEXT-DECORATION: none;
+    fontface: "細明體"
+}
+.mininput_box_1{width:50;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_1{width:135;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.longinput_box_1{width:250;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+
+	.button 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 19px;
+	LINE-HEIGHT: normal;
+	color: #FFFFFF;
+	background-color: #009194;
+	border-top: 1px ridge #FFFFFF;
+	border-right: 1px ridge #333333;
+	border-bottom: 1px ridge #333333;
+	border-left: 1px ridge #FFFFFF;
+
+
+}
+        .button1 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bold;
+	HEIGHT: 17px;
+	LINE-HEIGHT: normal;
+	color: #FFFFFF;
+	background-color: #009194;
+	border-top: 0px ridge #FFFFFF;
+	border-right: 0px ridge #333333;
+	border-bottom: 0px ridge #333333;
+	border-left: 0px ridge #FFFFFF;
+
+
+}
+
+.MTitleFont {
+font-size:10pt;
+color:#3300CC;
+}
+
+.NMTitleFont {
+font-size:10pt;
+color:black;
+}
+
+.TitleTD
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 10pt;
+	background-color:lightblue;
+}
+
+.TitleTD1
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 10pt;
+	background-color:lightblue;
+	Width:90px;
+}
+
+.SmallTitleTD1
+{
+    FONT-FAMILY: 細明體;
+    FONT-SIZE: 10pt;
+	background-color:lightblue;
+	Width:40px;
+}
+
+.SynnexButton	1	{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	HEIGHT: 19;
+	color: #0066cc;
+	background-color: #0099ff;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	cursor: hand;
+	border-left: 0px;
+}
+
+.SynnexButton			{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	HEIGHT: 19;
+	color: #FFFFFF;
+	background-color: #009194;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	cursor: hand;
+	border-left: 0px;
+}
+
+	.Tinput_box 			{font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box1 			{font-size: 9pt; border:none; color:#666666;}
+	.Tinput_box2 			{color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+
+	.Tinput_box_1 			{width:20;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box_4 			{width:40;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box_10 			{width:80;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box_20 			{width:150;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box_30 			{width:200;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.Tinput_box_ReadOnly1 		{width:20;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.Tinput_box_ReadOnly4 		{width:40;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.Tinput_box_ReadOnly10 		{width:80;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.Tinput_box_ReadOnly20 		{width:150;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+
+
+	.TcmTitlebar 	{
+	 color: #FFFFFF;
+	 background-color: #0099ff;
+	 line-height: 25px;
+}
+
+	.tblTitle 			{
+	color: #FFFFFF;
+	background-color: #0099ff;
+	line-height: 25px;
+}
+
+.tblTitle1 			{
+	color: #FFFFFF;
+	background-color: #0099ff;
+	line-height: 23px;
+}
+
+.tblTitle2		{
+	line-height: 25px;color: #000000;background-color: #FFFFE8;
+}
+
+}
+	.tblBody 			{color: #000000;font-size: 9pt;line-height: 150%}
+
+
+.tr_0 				{line-height: 20px;color: #000000;background-color: #EEFFE8;}
+.tr_1 				{line-height: 20px;color: #000000;background-color: #FFFFE8;}
+
+	.winTitle 			{
+	color: #FFFFFF;
+	background-color: #0063A4;
+	font-size:9pt;
+	line-height: 150%;
+}
+        .bodyWin			{font-family:Verdana,Arial,Tahoma,Helvetica; background-color:#FFFFC4; scrollbars:no;}

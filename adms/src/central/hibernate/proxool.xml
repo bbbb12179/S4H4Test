@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<something-else-entirely>
+	<proxool>
+		<alias>cen</alias>
+		<driver-url>jdbc:h2:tcp://localhost/~/cen/cendb</driver-url>
+		<driver-class>org.h2.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="sa"/>
+			<property name="password" value=""/>
+		</driver-properties>
+		<maximum-connection-count>100</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>		
+		<test-after-use>true</test-after-use>
+		<test-before-use>true</test-before-use>	
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+    	<prototype-count>5</prototype-count>
+    	<maximum-connection-lifetime>90000000</maximum-connection-lifetime>
+    	<jmx>true</jmx>
+    	<jmx-agent-id>LSN_DB</jmx-agent-id>
+	</proxool>
+</something-else-entirely>
+

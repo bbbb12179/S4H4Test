@@ -1,0 +1,209 @@
+﻿body {
+	font-family:Verdana,Arial,Tahoma,Helvetica,;
+	background-color:#C4E1FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+	
+.winTitle {
+	color: #FFFFFF;
+	background-color: #6699FF;
+	font-size:14pt;
+	line-height: 150%; font-family:標楷體	
+}
+
+.input_box_02			{width:20;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_03 			{width:30;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_05 			{width:40;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_10 			{width:80;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_15 			{width:120;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_20 			{width:150;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_25 			{width:175;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+.input_box_30 			{width:200;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}	
+.input_box_35 			{width:220;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}	
+.input_box_50 			{width:370;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}		
+.input_box_60 			{width:450;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}	
+.input_box_amt 			{width:100;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2; text-align: right;}
+	
+.tblBody {
+    border:1px solid #CCCCFF; font-size: 9pt;line-height: 120%
+}
+.tblBody2 {
+	color: #000000;font-size: 9pt;line-height: 120%;
+}
+.tblBody3 {
+	background-color:#C4E1FF;
+}
+	
+.tblTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1E90FF;
+	line-height: 12pt;
+}
+
+.tblTitle2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0066FF;
+	line-height: 12pt
+}
+    
+.tr0 {
+	background-color: #F0F8FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+}
+
+.tr1 {
+	background-color: #FFFFE8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+}
+
+.sysWord {
+	font-family: Verdana;
+	font-size: 9pt;
+	line-height: 12pt; 
+}
+
+.MustField {
+	font-family: Verdana;
+	font-size: 9pt;
+	line-height: 12pt; color:#0000FF
+}
+
+.openFont {
+	font-family: Verdana;
+	font-size: 9pt;
+	line-height: 12pt; color:#ffff99
+}
+
+.resultTblTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #A6C2FF;
+	line-height: 12pt;
+}
+
+.resultTblSortTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFF00;
+	background-color: #A6C2FF;
+	line-height: 12pt;
+	text-decoration: none;
+}
+
+.resultTblTitleJr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #A6C2FF;
+	line-height: 12pt;
+}
+
+.funcTitle {
+	font-family: "標楷體";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.redBold {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.MustFieldJr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+}
+
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+	color: #FFFF99;
+	background-color: #0066FF;
+	cursor: pointer;
+	cursor: hand
+}
+
+.button_disable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+	color: #FFFFFF;
+	background-color: #929e9e;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.trWhite {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+}
+
+.trWhiteJr {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.plainText {
+	background-color: #e6eeff;
+	border: 0px;
+}
+
+.trBlue {
+	background-color: #E1F0E2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt
+}
+
+.plainTextWhite {
+	border: 0px;
+}
+
+.bluePlainText {
+    color: #0000FF;
+	background-color: #e6eeff;
+	border: 0px;
+}
+
+.bluePlainTextWhite {
+    color: #0000FF;
+	border: 0px;
+}
+
+.SynnexButton 			{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	HEIGHT: 19;
+	color: #FF0000;
+	background-color: #0066FF;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	cursor: hand;
+	border-left: 0px;
+}

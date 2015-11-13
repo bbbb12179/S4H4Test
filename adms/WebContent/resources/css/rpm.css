@@ -1,0 +1,168 @@
+	body				{font-family:Verdana,Arial,Tahoma,Helvetica,;background-color:#E3F4FC;}
+	.bodyWin			{font-family:Verdana,Arial,Tahoma,Helvetica,;background-color:#FFFFC4;scrollbars:no;}
+	p 					{font-size: 9pt }
+	span 				{font-size: 9pt }
+	A:link				{font-size: 9pt;COLOR: black;}
+	A:visited			{font-size: 9pt;COLOR: black;}
+	A:active			{font-size: 9pt;COLOR: #FF0000;}
+	.sysWord			{
+color=#006666;	font-size: 10pt;
+	letter-spacing:0px;
+	color: #000000;
+}
+	.sysTitle			{color=#FF0000;
+	font-weight: bold;
+	font-size:12pt;
+	line-height: 150%;
+	color: #FF0000;
+}
+	.systbl 			{
+	font-size: 9pt;
+}
+	.tblTitle 			{
+	color: #FFFFFF;
+	background-color: #0033AA;
+	line-height: 150%;
+}
+	.winTitle 			{
+	color: #FFFFFF;
+	background-color: #0063A4;
+	font-size:9pt;
+	line-height: 150%;
+}
+	.tblBody 			{color: #000000;font-size: 9pt;line-height: 120%;}
+	.tblSub 			{color: #000066;font-size: 9pt;background-color:#97B9FF;line-height: 150%;}
+	.tblSub1 			{color: #000066;font-size: 9pt;background-color:#CAFFCA;line-height: 150%;}
+	.totalFont 			{color: #0000FF}
+	.totalFont-			{color: #DC143C}
+
+	.tr0- 				{color: #FF0000;background-color: #F0F8FF;}
+	
+	.tr1- 				{color: #FF0000;background-color: #FFFFE8;}
+
+
+	.tr0 				{color: #000000;font-size: 9pt;background-color: #F0F8FF;line-height: 180%;}
+	.tr1 				{color: #000000;font-size: 9pt;background-color: #FFFFE8;line-height: 180%;}
+	.tr2 				{color: #000000;background-color: #CFE9FF;line-height: 180%; font-Weight: bolder;}
+
+	.button 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 17px;
+	LINE-HEIGHT: normal;
+	color: #FFFFFF;
+	background-color: #0033AA;
+	border-top: 1px ridge #FFFFFF;
+	border-right: 1px ridge #333333;
+	border-bottom: 1px ridge #333333;
+	border-left: 1px ridge #FFFFFF;
+
+
+}
+        .button1 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bold;
+	HEIGHT: 17px;
+	LINE-HEIGHT: normal;
+	color: #FFFFFF;
+	background-color: #009194;
+	border-top: 0px ridge #FFFFFF;
+	border-right: 0px ridge #333333;
+	border-bottom: 0px ridge #333333;
+	border-left: 0px ridge #FFFFFF;
+
+
+}
+	.button2 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 17px;
+	LINE-HEIGHT: normal;
+	color: #000000;
+	background-color: #C0C0C0;
+	border-top: 1px ridge #FFFFFF;
+	border-right: 1px ridge #333333;
+	border-bottom: 1px ridge #333333;
+	border-left: 1px ridge #FFFFFF;
+
+
+}
+.SynnexButton 			{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	HEIGHT: 19;
+	color: #FFFFFF;
+	background-color: #0066FF;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	cursor: hand;
+	border-left: 0px;
+}
+
+	.input_box 			{font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.input_box1 			{font-size: 9pt; border:none; color:#666666;}
+	.input_box2 			{color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+
+	.input_box_1 			{width:20;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.input_box_4 			{width:40;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.input_box_10 			{width:80;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.input_box_20 			{width:150;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}
+	.input_box_30 			{width:200;font-size: 9pt;BACKGROUND-COLOR: #ffffff; border-style: groove; border-width: 2;}	
+	.input_box_ReadOnly1 		{width:20;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.input_box_ReadOnly4 		{width:40;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.input_box_ReadOnly10 		{width:80;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}
+	.input_box_ReadOnly20 		{width:150;color:#666666;font-size: 9pt;BACKGROUND-COLOR: #FFFFFF; border-style: groove; border-width: 2;}	
+
+	
+	.MustField 			{color: #0000FF;font-size: 9pt;}
+	.ReadOnlyFieldValue 		{font-size: 9pt;color: #666666;}
+	.AutoValue 			{font-size: 9pt;	color: #FF0000;}
+
+	.headline-s12 		{font-size:12pt; text-decoration:none; line-height: 150%;letter-spacing:0px;line-height: 19px }
+	.subhead-s12 		{font-size:12pt; text-decoration:none; line-height: 150%;letter-spacing:0px;line-height: 19px }
+	.list-s9 			{font-size:9pt; text-decoration:none; line-height: 150%;letter-spacing:0px;line-height: 12px }
+	.brief-s9 			{font-size:9pt; text-decoration:none; line-height: 120%;letter-spacing:0px;line-height: 14px }
+	.menu-s9 			{font-size:9pt; text-decoration:none; line-height: 120%;letter-spacing:0px;line-height: 17px }
+	.article-s11 		{font-size:11pt; text-decoration:none; line-height: 200%;letter-spacing:0px;line-height: 21px }
+	.article-s10 		{font-size:10pt; text-decoration:none; line-height: 130%;letter-spacing:0px;line-height: 19px }
+.inputmoney {
+	font-size: 9pt;
+	BACKGROUND-COLOR: #ffffff;
+	border-style: groove;
+	border-width: 2;
+	text-align: right;
+}
+
+.msg {
+	font-size: 9pt;
+	color: #3366CC;
+
+}
+
+.CataTitle {
+	color: #FFFFFF;
+	background-color: #009194;
+	line-height: 150%;
+	font-size: 11pt;
+
+}
+
+.IframeWidow {
+border-style:ridge;
+border-width: 4px;
+position:absolute;
+width:720;
+height:310;
+top:240px;
+left:50px;
+}

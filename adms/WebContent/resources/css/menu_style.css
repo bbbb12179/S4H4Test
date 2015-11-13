@@ -1,0 +1,32 @@
+﻿	body				{font-family:Verdana,Arial,Tahoma,Helvetica,;background-color:#006FDD;}
+	.winTitle 			{
+	color: #FFFFFF;
+	background-color: #006FDD;
+	font-size:14pt;
+	line-height: 150%; font-family:標楷體
+}
+
+	.button 			{
+	font-size: 9pt;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 19px;
+	LINE-HEIGHT: normal;
+	color: #FFFF99;
+	background-color: #0066FF;
+	border-top: 1px ridge #FFFFFF;
+	border-right: 1px ridge #333333;
+	border-bottom: 1px ridge #333333;
+	border-left: 1px ridge #FFFFFF
+
+
+}
+	
+.whiteBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}

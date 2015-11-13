@@ -1,0 +1,11 @@
+acie.title=節點連接選擇
+acie.nodeId=節點ID
+acie.nodeQueueName=節點Queue
+acie.nodeIp=節點IP
+acie.nodePort=節點PORT
+acie.select=請勾選
+acie.state=節點狀態
+acie.task=任務設定
+acie.OperationSelect=操作選擇
+acie.connect=連接節點
+acie.disConnect=中斷節點
